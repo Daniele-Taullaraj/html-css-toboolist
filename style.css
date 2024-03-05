@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.left-padding {
+    padding-left: 5em;
+}
+
 /* style header */
 #scritta-logo {
     font-size: 5em;
@@ -17,8 +21,43 @@
     vertical-align: middle;
 }
 
-.contenitore {
+.contenitore-header {
     padding: 1em 0 1em 2em;
+}
+
+/* ++++++++++ */
+
+/* style main */
+main {
+    background-color: #D7DADE;
+    padding-top: 5em;
+}
+
+.contenitore-body {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border-radius: 1.5em;
+}
+
+
+/* style button */
+.button {
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 10px;
+    border-color: #D7DADE;
+    margin: 1em 0.2em;
+}
+
+#button-blu {
+    background-color: #47ADF1;
+    color: white;
+}
+
+#button-white {
+    background-color: white;
+    color: #C9CED3;
 }
 
 /* ++++++++++ */
