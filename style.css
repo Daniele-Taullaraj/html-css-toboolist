@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* style header */
+#scritta-logo {
+    font-size: 5em;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+#logo-img {
+    height: 5em;
+    vertical-align: middle;
+}
+
+.contenitore {
+    padding: 1em 0 1em 2em;
+}
+
+/* ++++++++++ */
