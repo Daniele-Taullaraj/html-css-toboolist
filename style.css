@@ -5,32 +5,34 @@
 }
 
 .left-padding {
-    padding-left: 5em;
+    padding-left: 3em;
 }
 
 /* style header */
 #scritta-logo {
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
     vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 #logo-img {
-    height: 5em;
+    height: 3em;
     vertical-align: middle;
 }
 
 .contenitore-header {
-    padding: 1em 0 1em 2em;
+    padding: 0.5em 0 0.5em 2em;
 }
 
 /* ++++++++++ */
 
 /* style main */
 main {
-    background-color: #D7DADE;
-    padding-top: 5em;
+    background-color: #F6F8F9;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .contenitore-body {
@@ -38,12 +40,17 @@ main {
     margin: auto;
     background-color: white;
     border-radius: 1.5em;
+    padding-bottom: 2em;
+}
+
+hr {
+    border: 1px solid #F6F8F9;
 }
 
 
 /* style button */
 .button {
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0.5em;
     border-radius: 10px;
     border-color: #D7DADE;
@@ -61,3 +68,62 @@ main {
 }
 
 /* ++++++++++ */
+
+/* style menù a tendina */
+h2 {
+    margin-top: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.true-false {
+    border-radius: 50%;
+    font-size: 0.7em;
+    padding: 0.3em;
+    margin-right: 0.5em;
+}
+
+.true {
+    color: green;
+    border: 1px solid green;
+}
+
+.false {
+    color: red;
+    border: 1px solid red;
+}
+
+.menu-items {
+    margin: 0.5em 0 1.5em;
+}
+
+.evidenziato {
+    border-radius: 2em;
+    padding: 0.3em 0.7em;
+    color: white;
+    font-size: 0.8em;
+}
+
+.blue {
+    background-color: #47ADF1;
+}
+
+.viola {
+    background-color: #9C72E4;
+}
+
+.verde-strano {
+    background-color: #64C0A9;
+}
+
+.arancione {
+    background-color: #F29E32;
+}
+
+.fucsia {
+    background-color: #D863A1;
+}
+
+.verdino {
+    background-color: #B0C926;
+}
